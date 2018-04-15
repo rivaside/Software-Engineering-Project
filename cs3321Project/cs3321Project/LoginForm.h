@@ -153,6 +153,7 @@ namespace cs3321Project {
 			this->Name = L"LoginForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"UHD Login";
+			this->Load += gcnew System::EventHandler(this, &LoginForm::LoginForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -200,5 +201,7 @@ private: System::Void btnLogin_Click(System::Object^  sender, System::EventArgs^
 	}
 private: System::Void txtUsername_TextChanged(System::Object^  sender, System::EventArgs^  e) {
 	}
+private: System::Void LoginForm_Load(System::Object^  sender, System::EventArgs^  e) {
+}
 };
 }
