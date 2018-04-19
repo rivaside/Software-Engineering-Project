@@ -1,3 +1,0 @@
-﻿  LoginForm.cpp
-LoginForm.cpp(8): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
-  cs3321Project.vcxproj -> C:\Users\Kirt\Documents\github\myfork\Software-Engineering-Project\cs3321Project\Debug\cs3321Project.exe
