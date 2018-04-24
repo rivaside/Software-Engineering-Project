@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Admin.Designer.vb" t="Include" />
+      <e p="Admin.resx" t="Include" />
+      <e p="Admin.vb" t="Include" />
+      <e p="App.config" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="GUI.sln" t="IncludeFlat" />
+      <e p="Login.Designer.vb" t="Include" />
+      <e p="Login.resx" t="Include" />
+      <e p="Login.vb" t="Include" />
+      <e p="My Project" t="Include">
+        <e p="Application.Designer.vb" t="Include" />
+        <e p="Application.myapp" t="Include" />
+        <e p="AssemblyInfo.vb" t="Include" />
+        <e p="Resources.Designer.vb" t="Include" />
+        <e p="Resources.resx" t="Include" />
+        <e p="Settings.Designer.vb" t="Include" />
+        <e p="Settings.settings" t="Include" />
+      </e>
+      <e p="NewStudent.Designer.vb" t="Include" />
+      <e p="NewStudent.resx" t="Include" />
+      <e p="NewStudent.vb" t="Include" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SIMS.vbproj" t="IncludeRecursive" />
+      <e p="Student.Designer.vb" t="Include" />
+      <e p="Student.resx" t="Include" />
+      <e p="Student.vb" t="Include" />
+      <e p="Update.Designer.vb" t="Include" />
+      <e p="Update.resx" t="Include" />
+      <e p="Update.vb" t="Include" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2017.2/resharper-host/local/Transient/ReSharperHost/v10/SolutionCaches/_GUI.-854475457.00" t="ExcludeRecursive" />
+  </component>
+</project>

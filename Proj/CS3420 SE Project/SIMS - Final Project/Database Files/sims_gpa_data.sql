@@ -1,0 +1,102 @@
+-- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
+--
+-- Host: localhost    Database: sims
+-- ------------------------------------------------------
+-- Server version	5.7.17-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `gpa_data`
+--
+
+DROP TABLE IF EXISTS `gpa_data`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `gpa_data` (
+  `Student_Id` int(11) NOT NULL,
+  `CRN1` int(11) NOT NULL,
+  `Hours1` int(11) NOT NULL,
+  `Grade1` int(11) NOT NULL,
+  `GradeG1` decimal(12,2) DEFAULT NULL,
+  `Grade_Points1` decimal(12,2) DEFAULT NULL,
+  `CRN2` int(11) NOT NULL,
+  `Hours2` int(11) NOT NULL,
+  `Grade2` int(11) NOT NULL,
+  `GradeG2` int(11) NOT NULL,
+  `Grade_Points2` int(11) NOT NULL,
+  `CRN3` int(11) NOT NULL,
+  `Hours3` int(11) NOT NULL,
+  `Grade3` int(11) NOT NULL,
+  `GradeG3` int(11) NOT NULL,
+  `Grade_Points3` int(11) NOT NULL,
+  `CRN4` int(11) NOT NULL,
+  `Hours4` int(11) NOT NULL,
+  `Grade4` int(11) NOT NULL,
+  `GradeG4` int(11) NOT NULL,
+  `Grade_Points4` int(11) NOT NULL,
+  `CRN5` int(11) NOT NULL,
+  `Hours5` int(11) NOT NULL,
+  `Grade5` int(11) NOT NULL,
+  `GradeG5` int(11) NOT NULL,
+  `Grade_Points5` int(11) NOT NULL,
+  `Points_Earned` decimal(12,2) DEFAULT NULL,
+  `Hours_Attempted` int(11) NOT NULL,
+  `GPA` decimal(12,2) DEFAULT NULL,
+  PRIMARY KEY (`Student_Id`),
+  KEY `CRN1_index` (`CRN1`),
+  KEY `Hours1_index` (`Hours1`),
+  KEY `Grade1_index` (`Grade1`),
+  KEY `CRN2_index` (`CRN2`),
+  KEY `Hours2_index` (`Hours2`),
+  KEY `Grade2_index` (`Grade2`),
+  KEY `GradeG2_index` (`GradeG2`),
+  KEY `Grade_Points2_index` (`Grade_Points2`),
+  KEY `CRN3_index` (`CRN3`),
+  KEY `Hours3_index` (`Hours3`),
+  KEY `Grade3_index` (`Grade3`),
+  KEY `GradeG3_index` (`GradeG3`),
+  KEY `Grade_Points3_index` (`Grade_Points3`),
+  KEY `CRN4_index` (`CRN4`),
+  KEY `Hours4_index` (`Hours4`),
+  KEY `Grade4_index` (`Grade4`),
+  KEY `GradeG4_index` (`GradeG4`),
+  KEY `Grade_Points4_index` (`Grade_Points4`),
+  KEY `CRN5_index` (`CRN5`),
+  KEY `Hours5_index` (`Hours5`),
+  KEY `Grade5_index` (`Grade5`),
+  KEY `GradeG5_index` (`GradeG5`),
+  KEY `Grade_Points5_index` (`Grade_Points5`),
+  KEY `Hours_Attempted_index` (`Hours_Attempted`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `gpa_data`
+--
+
+LOCK TABLES `gpa_data` WRITE;
+/*!40000 ALTER TABLE `gpa_data` DISABLE KEYS */;
+INSERT INTO `gpa_data` VALUES (90019138,82720,4,96,3.60,14.40,42038,2,88,3,6,30084,4,89,3,12,22660,2,86,3,6,74501,2,84,3,6,44.40,14,3.29),(90037632,22304,3,91,3.10,9.30,30084,4,84,3,12,76706,2,88,3,6,60515,2,80,2,4,12207,4,86,3,12,43.30,15,3.20),(99002141,22304,3,79,1.90,5.70,74501,2,86,3,6,78550,3,93,4,12,40507,4,83,3,12,22204,3,88,3,9,44.70,15,2.98),(99008102,29464,2,98,3.80,7.60,53221,3,84,3,9,46947,4,80,2,8,29464,2,81,3,6,22304,3,93,4,12,42.60,14,3.04),(99019108,0,0,0,0.00,0.00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0,0.00),(99022011,30075,2,93,3.30,6.60,76706,2,86,3,6,60515,2,92,4,8,0,0,0,0,0,0,0,0,0,0,20.60,6,3.43),(99031707,12207,4,88,2.80,11.20,53221,3,86,3,9,22204,3,92,4,12,0,0,0,0,0,0,0,0,0,0,32.20,10,3.22),(99033436,78550,3,88,2.80,8.40,30084,4,88,3,12,16803,3,86,3,9,0,0,0,0,0,0,0,0,0,0,29.40,10,2.94),(99037660,87110,3,76,1.60,4.80,97420,2,83,3,6,22204,3,86,3,9,16803,3,82,3,9,55406,4,93,4,16,44.80,15,2.99),(99045406,87110,3,92,3.20,9.60,22660,2,93,4,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17.60,5,3.52),(99048235,53221,3,87,2.70,8.10,22660,2,90,3,6,29464,2,82,3,6,46947,4,84,3,12,0,0,0,0,0,32.10,11,2.92),(99053151,60515,2,79,1.00,2.00,30084,4,89,3,12,40507,4,98,4,16,46947,4,89,3,12,12207,4,88,3,12,54.00,18,3.00),(99058554,42038,2,81,2.10,4.20,53221,3,85,3,9,27801,4,85,3,12,0,0,0,0,0,0,0,0,0,0,25.20,9,2.80),(99061820,22304,3,77,1.70,5.10,76706,2,90,3,6,78550,3,93,4,12,12207,4,90,3,12,30075,2,89,3,6,41.10,14,2.94),(99065325,78550,3,85,2.50,7.50,53221,3,87,3,9,22660,2,91,4,8,29464,2,94,4,8,0,0,0,0,0,32.50,10,3.25),(99072212,12207,4,92,3.20,12.80,97420,2,91,4,8,22204,3,82,3,9,76706,2,82,3,6,40507,4,84,3,12,47.80,15,3.19),(99080015,74501,2,90,3.00,6.00,71457,2,86,3,6,22660,2,87,3,6,82720,4,94,4,16,97420,2,86,3,6,40.00,12,3.33),(99084120,40507,4,95,3.50,14.00,42038,2,93,4,8,76706,2,87,3,6,29464,2,91,4,8,0,0,0,0,0,36.00,10,3.60),(99092111,97420,2,89,2.90,5.80,29464,2,89,3,6,78550,3,81,3,9,22204,3,89,3,9,0,0,0,0,0,29.80,10,2.98),(99097205,42038,2,83,2.30,4.60,30084,4,92,4,16,22660,2,85,3,6,82720,4,88,3,12,12207,4,89,3,12,50.60,16,3.16),(900346544,0,0,0,0.00,0.00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0,4.00);
+/*!40000 ALTER TABLE `gpa_data` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2017-04-30 19:59:40

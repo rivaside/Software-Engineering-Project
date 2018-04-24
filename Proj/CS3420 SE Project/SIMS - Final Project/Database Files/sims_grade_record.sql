@@ -1,0 +1,102 @@
+-- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
+--
+-- Host: localhost    Database: sims
+-- ------------------------------------------------------
+-- Server version	5.7.17-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `grade_record`
+--
+
+DROP TABLE IF EXISTS `grade_record`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `grade_record` (
+  `Student_Id` int(11) NOT NULL,
+  `Semester` varchar(12) DEFAULT NULL,
+  `CRN1` int(11) NOT NULL,
+  `Exam_1_1` int(11) NOT NULL,
+  `Exam_2_1` int(11) NOT NULL,
+  `Final_1` int(11) NOT NULL,
+  `CourseGrade_1` int(11) NOT NULL,
+  `CRN2` int(11) NOT NULL,
+  `Exam_1_2` int(11) NOT NULL,
+  `Exam_2_2` int(11) NOT NULL,
+  `Final_2` int(11) NOT NULL,
+  `CourseGrade_2` int(11) NOT NULL,
+  `CRN3` int(11) NOT NULL,
+  `Exam_1_3` int(11) NOT NULL,
+  `Exam_2_3` int(11) NOT NULL,
+  `Final_3` int(11) NOT NULL,
+  `CourseGrade_3` int(11) NOT NULL,
+  `CRN4` int(11) NOT NULL,
+  `Exam_1_4` int(11) NOT NULL,
+  `Exam_2_4` int(11) NOT NULL,
+  `Final_4` int(11) NOT NULL,
+  `CourseGrade_4` int(11) NOT NULL,
+  `CRN5` int(11) NOT NULL,
+  `Exam_1_5` int(11) NOT NULL,
+  `Exam_2_5` int(11) NOT NULL,
+  `Final_5` int(11) NOT NULL,
+  `CourseGrade_5` int(11) NOT NULL,
+  PRIMARY KEY (`Student_Id`),
+  KEY `Student_Id_index` (`Student_Id`),
+  KEY `CRN1_index` (`CRN1`),
+  KEY `Exam_1-1_index` (`Exam_1_1`),
+  KEY `Exam_1-2_index` (`Exam_2_1`),
+  KEY `Final_1_index` (`Final_1`),
+  KEY `CourseGrade_1_index` (`CourseGrade_1`),
+  KEY `CRN2_index` (`CRN2`),
+  KEY `Exam_2-1_index` (`Exam_1_2`),
+  KEY `Exam_2-2_index` (`Exam_2_2`),
+  KEY `Final_2_index` (`Final_2`),
+  KEY `CourseGrade_2_index` (`CourseGrade_2`),
+  KEY `CRN3_index` (`CRN3`),
+  KEY `Exam_3-1_index` (`Exam_1_3`),
+  KEY `Exam_3-2_index` (`Exam_2_3`),
+  KEY `Final_3_index` (`Final_3`),
+  KEY `CourseGrade_3_index` (`CourseGrade_3`),
+  KEY `CRN4_index` (`CRN4`),
+  KEY `Exam_4-1_index` (`Exam_1_4`),
+  KEY `Exam_4-2_index` (`Exam_2_4`),
+  KEY `Final_4_index` (`Final_4`),
+  KEY `CourseGrade_4_index` (`CourseGrade_4`),
+  KEY `CRN5_index` (`CRN5`),
+  KEY `Exam_5-1_index` (`Exam_1_5`),
+  KEY `Exam_5-2_index` (`Exam_2_5`),
+  KEY `Final_5_index` (`Final_5`),
+  KEY `CourseGrade_5_index` (`CourseGrade_5`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `grade_record`
+--
+
+LOCK TABLES `grade_record` WRITE;
+/*!40000 ALTER TABLE `grade_record` DISABLE KEYS */;
+INSERT INTO `grade_record` VALUES (90019138,'Spring2016',82720,79,90,85,96,42038,79,97,88,88,30084,99,84,83,89,22660,78,82,97,86,74501,83,92,75,84),(90037632,'Spring2016',22304,93,81,75,91,30084,76,84,90,84,76706,94,87,82,88,60515,76,77,86,80,12207,78,83,95,86),(99002141,'Fall2015',22304,76,85,99,79,74501,87,86,85,86,78550,96,88,93,93,40507,82,75,91,83,22204,80,88,95,88),(99008102,'Spring2016',29464,83,91,97,98,53221,76,82,94,84,46947,83,77,80,80,29464,82,84,76,81,22304,99,92,86,93),(99019108,'Spring2016',0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),(99022011,'Spring2016',30075,78,89,81,93,76706,89,77,91,86,60515,90,87,97,92,0,0,0,0,0,0,0,0,0,0),(99031707,'Spring2016',12207,80,86,91,88,53221,80,79,99,86,22204,84,93,99,92,0,0,0,0,0,0,0,0,0,0),(99033436,'Fall2015',78550,85,94,91,88,30084,95,77,91,88,16803,82,98,76,86,0,0,0,0,0,0,0,0,0,0),(99037660,'Fall2015',87110,85,99,94,76,97420,75,84,90,83,22204,94,75,89,86,16803,75,78,92,82,55406,88,91,99,93),(99045406,'Fall2015',87110,88,83,88,92,22660,96,93,90,93,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0),(99048235,'Fall2015',53221,99,76,84,87,22660,96,95,78,90,29464,75,89,81,82,46947,75,92,84,84,0,0,0,0,0),(99053151,'Fall2015',60515,91,96,80,79,30084,85,96,86,89,40507,98,99,96,98,46947,93,78,96,89,12207,96,81,86,88),(99058554,'Spring2016',42038,97,93,80,81,53221,80,98,77,85,27801,79,76,99,85,0,0,0,0,0,0,0,0,0,0),(99061820,'Fall2015',22304,93,85,89,77,76706,89,87,94,90,78550,97,84,96,93,12207,98,93,78,90,30075,93,76,98,89),(99065325,'Fall2015',78550,81,85,88,85,53221,85,85,89,87,22660,82,94,95,91,29464,93,92,96,94,0,0,0,0,0),(99072212,'Fall2015',12207,86,93,82,92,97420,97,77,97,91,22204,78,86,80,82,76706,84,75,85,82,40507,77,78,97,84),(99080015,'Spring2016',74501,82,89,95,90,71457,80,79,99,86,22660,78,93,88,87,82720,98,95,88,94,97420,94,77,86,86),(99084120,'Spring2016',40507,76,79,90,95,42038,96,94,89,93,76706,99,81,79,87,29464,78,98,95,91,0,0,0,0,0),(99092111,'Fall2015',97420,96,93,91,89,29464,95,78,94,89,78550,81,79,81,81,22204,97,80,89,89,0,0,0,0,0),(99097205,'Fall2015',42038,90,85,76,83,30084,91,92,91,92,22660,82,88,83,85,82720,87,96,80,88,12207,92,77,97,89),(900346544,'Spring2016',15213,100,100,100,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+/*!40000 ALTER TABLE `grade_record` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2017-04-30 19:59:40
