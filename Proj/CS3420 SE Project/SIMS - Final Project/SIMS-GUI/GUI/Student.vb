@@ -12,7 +12,7 @@ Public Class Student
     End Sub
 
     Private Sub Student_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        '
         MysqlConn = New MySqlConnection
         MysqlConn.ConnectionString =
             "server = localhost; userid = root; password = wali; database = SIMS"

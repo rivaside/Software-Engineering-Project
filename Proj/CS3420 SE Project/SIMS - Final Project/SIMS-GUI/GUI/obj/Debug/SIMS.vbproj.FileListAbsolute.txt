@@ -75,21 +75,20 @@ C:/School System/SIMS/SIMS-GUI/GUI/obj/Debug/SIMS.vbproj.GenerateResource.Cache
 /Users/suroor/Desktop/CS Documents/Software Engirening/CS3420 SE Project/SIMS - Final Project/SIMS-GUI/GUI/obj/Debug/SIMS.vbproj.CoreCompileInputs.cache
 /Users/suroor/Desktop/CS Documents/Software Engirening/CS3420 SE Project/SIMS - Final Project/SIMS-GUI/GUI/obj/Debug/GUI.exe
 /Users/suroor/Desktop/CS Documents/Software Engirening/CS3420 SE Project/SIMS - Final Project/SIMS-GUI/GUI/obj/Debug/GUI.xml
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\bin\Debug\GUI.exe.config
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\bin\Debug\GUI.exe
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\bin\Debug\GUI.pdb
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\bin\Debug\GUI.xml
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\bin\Debug\MySql.Data.xml
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\SIMS.vbprojResolveAssemblyReference.cache
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.Admin.resources
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.NewStudent.resources
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.Login.resources
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.Resources.resources
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.Student.resources
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.updateForm.resources
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\SIMS.vbproj.GenerateResource.cache
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\SIMS.vbproj.CoreCompileInputs.cache
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\SIMS.vbproj.CopyComplete
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.exe
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.xml
-C:\Users\ScerolerTravisJ\Source\Repos\Software-Engineering-Project2\Proj\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.pdb
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\bin\Debug\GUI.exe.config
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\bin\Debug\GUI.exe
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\bin\Debug\GUI.pdb
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\bin\Debug\GUI.xml
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\bin\Debug\MySql.Data.xml
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\SIMS.vbprojResolveAssemblyReference.cache
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.Admin.resources
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.NewStudent.resources
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.Login.resources
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.Resources.resources
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.Student.resources
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.updateForm.resources
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\SIMS.vbproj.GenerateResource.Cache
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\SIMS.vbproj.CoreCompileInputs.cache
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.exe
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.xml
+C:\Users\Kirt\Documents\project folder cs3321\CS3420 SE Project\CS3420 SE Project\SIMS - Final Project\SIMS-GUI\GUI\obj\Debug\GUI.pdb

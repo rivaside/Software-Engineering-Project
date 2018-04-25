@@ -59,7 +59,7 @@ Public Class Admin
 
         MysqlConn = New MySqlConnection
         MysqlConn.ConnectionString =
-            "server = localhost; userid = root; password = wali; database = SIMS"
+            "server = localhost; userid = root; password = wali; database = sims"
 
         Dim READER1 As MySqlDataReader
 
@@ -149,7 +149,7 @@ Public Class Admin
 
             COMMAND = New MySqlCommand(Query2, MysqlConn)
             READER1 = COMMAND.ExecuteReader
-
+            '
             Dim count As Integer = 0
             While READER1.Read
                 Hours(count) = READER1.GetInt64("Course_Hours")
@@ -172,9 +172,17 @@ Public Class Admin
 
             HoursTotal = Hours(0) + Hours(1) + Hours(2) + Hours(3) + Hours(4)
 
-            GPA_Final = Decimal.Round((Grade_Points_Total / HoursTotal), 2, MidpointRounding.AwayFromZero)
+            Try
 
-            GPAlbl.Text = Decimal.Round(GPA_Final, 2, MidpointRounding.AwayFromZero)
+                GPA_Final = Decimal.Round((Grade_Points_Total / HoursTotal), 2, MidpointRounding.AwayFromZero)
+
+                GPAlbl.Text = Decimal.Round(GPA_Final, 2, MidpointRounding.AwayFromZero)
+
+            Catch ex As Exception
+                GPAlbl.Text = 0
+
+            End Try
+
             '\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
             Dim Query3 As String
@@ -231,6 +239,10 @@ Public Class Admin
     End Sub
 
     Private Sub StudentGridLSTBOX_SelectedIndexChanged(sender As Object, e As EventArgs) Handles StudentGridLSTBOX.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub Admin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

@@ -51,10 +51,10 @@ Partial Class NewStudent
         '
         Me.StudentID.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.StudentID.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.StudentID.Location = New System.Drawing.Point(164, 32)
-        Me.StudentID.Margin = New System.Windows.Forms.Padding(2)
+        Me.StudentID.Location = New System.Drawing.Point(437, 76)
+        Me.StudentID.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.StudentID.Name = "StudentID"
-        Me.StudentID.Size = New System.Drawing.Size(167, 29)
+        Me.StudentID.Size = New System.Drawing.Size(439, 61)
         Me.StudentID.TabIndex = 3
         Me.StudentID.Text = "Enter Student ID"
         '
@@ -63,10 +63,10 @@ Partial Class NewStudent
         Me.Label1.BackColor = System.Drawing.Color.Crimson
         Me.Label1.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(40, 27)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(107, 64)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(105, 34)
+        Me.Label1.Size = New System.Drawing.Size(280, 81)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Student ID:"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -75,10 +75,10 @@ Partial Class NewStudent
         '
         Me.FirstNametxt.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FirstNametxt.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.FirstNametxt.Location = New System.Drawing.Point(164, 88)
-        Me.FirstNametxt.Margin = New System.Windows.Forms.Padding(2)
+        Me.FirstNametxt.Location = New System.Drawing.Point(437, 210)
+        Me.FirstNametxt.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.FirstNametxt.Name = "FirstNametxt"
-        Me.FirstNametxt.Size = New System.Drawing.Size(167, 29)
+        Me.FirstNametxt.Size = New System.Drawing.Size(439, 61)
         Me.FirstNametxt.TabIndex = 5
         '
         'Label2
@@ -86,10 +86,10 @@ Partial Class NewStudent
         Me.Label2.BackColor = System.Drawing.Color.Crimson
         Me.Label2.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(40, 83)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Location = New System.Drawing.Point(107, 198)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(105, 34)
+        Me.Label2.Size = New System.Drawing.Size(280, 81)
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "First Name:"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -98,10 +98,10 @@ Partial Class NewStudent
         '
         Me.Addresstxt.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Addresstxt.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Addresstxt.Location = New System.Drawing.Point(164, 140)
-        Me.Addresstxt.Margin = New System.Windows.Forms.Padding(2)
+        Me.Addresstxt.Location = New System.Drawing.Point(437, 334)
+        Me.Addresstxt.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.Addresstxt.Name = "Addresstxt"
-        Me.Addresstxt.Size = New System.Drawing.Size(167, 29)
+        Me.Addresstxt.Size = New System.Drawing.Size(439, 61)
         Me.Addresstxt.TabIndex = 7
         '
         'Label3
@@ -109,10 +109,10 @@ Partial Class NewStudent
         Me.Label3.BackColor = System.Drawing.Color.Crimson
         Me.Label3.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(40, 135)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label3.Location = New System.Drawing.Point(107, 322)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(105, 34)
+        Me.Label3.Size = New System.Drawing.Size(280, 81)
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "Address:"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -121,10 +121,10 @@ Partial Class NewStudent
         '
         Me.Ziptxt.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Ziptxt.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Ziptxt.Location = New System.Drawing.Point(164, 190)
-        Me.Ziptxt.Margin = New System.Windows.Forms.Padding(2)
+        Me.Ziptxt.Location = New System.Drawing.Point(437, 453)
+        Me.Ziptxt.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.Ziptxt.Name = "Ziptxt"
-        Me.Ziptxt.Size = New System.Drawing.Size(167, 29)
+        Me.Ziptxt.Size = New System.Drawing.Size(439, 61)
         Me.Ziptxt.TabIndex = 9
         '
         'Label4
@@ -132,10 +132,10 @@ Partial Class NewStudent
         Me.Label4.BackColor = System.Drawing.Color.Crimson
         Me.Label4.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(40, 185)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Location = New System.Drawing.Point(107, 441)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(105, 34)
+        Me.Label4.Size = New System.Drawing.Size(280, 81)
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "Zip:"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -144,10 +144,10 @@ Partial Class NewStudent
         '
         Me.SSNtxt.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SSNtxt.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.SSNtxt.Location = New System.Drawing.Point(164, 242)
-        Me.SSNtxt.Margin = New System.Windows.Forms.Padding(2)
+        Me.SSNtxt.Location = New System.Drawing.Point(437, 577)
+        Me.SSNtxt.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.SSNtxt.Name = "SSNtxt"
-        Me.SSNtxt.Size = New System.Drawing.Size(167, 29)
+        Me.SSNtxt.Size = New System.Drawing.Size(439, 61)
         Me.SSNtxt.TabIndex = 11
         '
         'Label5
@@ -155,10 +155,10 @@ Partial Class NewStudent
         Me.Label5.BackColor = System.Drawing.Color.Crimson
         Me.Label5.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(40, 237)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label5.Location = New System.Drawing.Point(107, 565)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(105, 34)
+        Me.Label5.Size = New System.Drawing.Size(280, 81)
         Me.Label5.TabIndex = 12
         Me.Label5.Text = "SSN:"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -167,10 +167,10 @@ Partial Class NewStudent
         '
         Me.DOBtxt.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DOBtxt.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.DOBtxt.Location = New System.Drawing.Point(484, 242)
-        Me.DOBtxt.Margin = New System.Windows.Forms.Padding(2)
+        Me.DOBtxt.Location = New System.Drawing.Point(1291, 577)
+        Me.DOBtxt.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.DOBtxt.Name = "DOBtxt"
-        Me.DOBtxt.Size = New System.Drawing.Size(167, 29)
+        Me.DOBtxt.Size = New System.Drawing.Size(439, 61)
         Me.DOBtxt.TabIndex = 21
         '
         'Label6
@@ -178,10 +178,10 @@ Partial Class NewStudent
         Me.Label6.BackColor = System.Drawing.Color.Crimson
         Me.Label6.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(360, 237)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label6.Location = New System.Drawing.Point(960, 565)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(105, 34)
+        Me.Label6.Size = New System.Drawing.Size(280, 81)
         Me.Label6.TabIndex = 22
         Me.Label6.Text = "DOB:"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -190,10 +190,10 @@ Partial Class NewStudent
         '
         Me.Phonetxt.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Phonetxt.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Phonetxt.Location = New System.Drawing.Point(484, 190)
-        Me.Phonetxt.Margin = New System.Windows.Forms.Padding(2)
+        Me.Phonetxt.Location = New System.Drawing.Point(1291, 453)
+        Me.Phonetxt.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.Phonetxt.Name = "Phonetxt"
-        Me.Phonetxt.Size = New System.Drawing.Size(167, 29)
+        Me.Phonetxt.Size = New System.Drawing.Size(439, 61)
         Me.Phonetxt.TabIndex = 19
         '
         'Label7
@@ -201,10 +201,10 @@ Partial Class NewStudent
         Me.Label7.BackColor = System.Drawing.Color.Crimson
         Me.Label7.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(360, 185)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label7.Location = New System.Drawing.Point(960, 441)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(105, 34)
+        Me.Label7.Size = New System.Drawing.Size(280, 81)
         Me.Label7.TabIndex = 20
         Me.Label7.Text = "Phone #:"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -213,10 +213,10 @@ Partial Class NewStudent
         '
         Me.Citytxt.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Citytxt.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Citytxt.Location = New System.Drawing.Point(484, 140)
-        Me.Citytxt.Margin = New System.Windows.Forms.Padding(2)
+        Me.Citytxt.Location = New System.Drawing.Point(1291, 334)
+        Me.Citytxt.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.Citytxt.Name = "Citytxt"
-        Me.Citytxt.Size = New System.Drawing.Size(167, 29)
+        Me.Citytxt.Size = New System.Drawing.Size(439, 61)
         Me.Citytxt.TabIndex = 17
         '
         'Label8
@@ -224,10 +224,10 @@ Partial Class NewStudent
         Me.Label8.BackColor = System.Drawing.Color.Crimson
         Me.Label8.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.White
-        Me.Label8.Location = New System.Drawing.Point(360, 135)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label8.Location = New System.Drawing.Point(960, 322)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(105, 34)
+        Me.Label8.Size = New System.Drawing.Size(280, 81)
         Me.Label8.TabIndex = 18
         Me.Label8.Text = "City:"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -236,10 +236,10 @@ Partial Class NewStudent
         '
         Me.LastNametxt.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LastNametxt.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.LastNametxt.Location = New System.Drawing.Point(484, 88)
-        Me.LastNametxt.Margin = New System.Windows.Forms.Padding(2)
+        Me.LastNametxt.Location = New System.Drawing.Point(1291, 210)
+        Me.LastNametxt.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.LastNametxt.Name = "LastNametxt"
-        Me.LastNametxt.Size = New System.Drawing.Size(167, 29)
+        Me.LastNametxt.Size = New System.Drawing.Size(439, 61)
         Me.LastNametxt.TabIndex = 15
         '
         'Label9
@@ -247,10 +247,10 @@ Partial Class NewStudent
         Me.Label9.BackColor = System.Drawing.Color.Crimson
         Me.Label9.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(360, 83)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label9.Location = New System.Drawing.Point(960, 198)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(105, 34)
+        Me.Label9.Size = New System.Drawing.Size(280, 81)
         Me.Label9.TabIndex = 16
         Me.Label9.Text = "Last Name:"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -258,10 +258,10 @@ Partial Class NewStudent
         'AddBtn
         '
         Me.AddBtn.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AddBtn.Location = New System.Drawing.Point(189, 300)
-        Me.AddBtn.Margin = New System.Windows.Forms.Padding(2)
+        Me.AddBtn.Location = New System.Drawing.Point(504, 715)
+        Me.AddBtn.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.AddBtn.Name = "AddBtn"
-        Me.AddBtn.Size = New System.Drawing.Size(110, 29)
+        Me.AddBtn.Size = New System.Drawing.Size(293, 69)
         Me.AddBtn.TabIndex = 23
         Me.AddBtn.Text = "Add"
         Me.AddBtn.UseVisualStyleBackColor = True
@@ -270,10 +270,10 @@ Partial Class NewStudent
         '
         Me.Close.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.Close.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Close.Location = New System.Drawing.Point(402, 300)
-        Me.Close.Margin = New System.Windows.Forms.Padding(2)
+        Me.Close.Location = New System.Drawing.Point(1072, 715)
+        Me.Close.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.Close.Name = "Close"
-        Me.Close.Size = New System.Drawing.Size(110, 29)
+        Me.Close.Size = New System.Drawing.Size(293, 69)
         Me.Close.TabIndex = 24
         Me.Close.Text = "Close"
         Me.Close.UseVisualStyleBackColor = True
@@ -282,11 +282,11 @@ Partial Class NewStudent
         '
         Me.Password.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Password.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Password.Location = New System.Drawing.Point(484, 37)
-        Me.Password.Margin = New System.Windows.Forms.Padding(2)
+        Me.Password.Location = New System.Drawing.Point(1291, 88)
+        Me.Password.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.Password.Name = "Password"
         Me.Password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.Password.Size = New System.Drawing.Size(167, 29)
+        Me.Password.Size = New System.Drawing.Size(439, 61)
         Me.Password.TabIndex = 25
         Me.Password.Text = "Enter Password"
         '
@@ -295,10 +295,10 @@ Partial Class NewStudent
         Me.Label10.BackColor = System.Drawing.Color.Crimson
         Me.Label10.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.White
-        Me.Label10.Location = New System.Drawing.Point(360, 32)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label10.Location = New System.Drawing.Point(960, 76)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(105, 34)
+        Me.Label10.Size = New System.Drawing.Size(280, 81)
         Me.Label10.TabIndex = 26
         Me.Label10.Text = "Password:"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -306,17 +306,18 @@ Partial Class NewStudent
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(496, 273)
+        Me.Label11.Location = New System.Drawing.Point(1323, 651)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(143, 13)
+        Me.Label11.Size = New System.Drawing.Size(365, 32)
         Me.Label11.TabIndex = 27
         Me.Label11.Text = "DOB Format: YYYY/MM/DD"
         '
         'NewStudent
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(16.0!, 31.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(688, 355)
+        Me.ClientSize = New System.Drawing.Size(1835, 847)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Password)
         Me.Controls.Add(Me.Label10)
@@ -340,6 +341,7 @@ Partial Class NewStudent
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.StudentID)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Name = "NewStudent"
         Me.Text = "New Student"
         Me.ResumeLayout(False)

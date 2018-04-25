@@ -101,7 +101,7 @@ Public Class Login
         Password.SelectAll()
         Password.ForeColor = Color.Black
     End Sub
-
+    '
     Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Username.ForeColor = Color.Gray
         Password.ForeColor = Color.Gray

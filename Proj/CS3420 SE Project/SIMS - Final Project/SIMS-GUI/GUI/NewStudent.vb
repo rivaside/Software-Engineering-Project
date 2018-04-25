@@ -81,4 +81,8 @@ Public Class NewStudent
         Me.Dispose()
         Admin.Show()
     End Sub
+
+    Private Sub NewStudent_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        '
+    End Sub
 End Class

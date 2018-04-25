@@ -49,11 +49,11 @@ Partial Class Admin
         '
         Me.StudentGridLSTBOX.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.StudentGridLSTBOX.FormattingEnabled = True
-        Me.StudentGridLSTBOX.ItemHeight = 24
-        Me.StudentGridLSTBOX.Location = New System.Drawing.Point(29, 58)
-        Me.StudentGridLSTBOX.Margin = New System.Windows.Forms.Padding(2)
+        Me.StudentGridLSTBOX.ItemHeight = 54
+        Me.StudentGridLSTBOX.Location = New System.Drawing.Point(77, 138)
+        Me.StudentGridLSTBOX.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.StudentGridLSTBOX.Name = "StudentGridLSTBOX"
-        Me.StudentGridLSTBOX.Size = New System.Drawing.Size(320, 244)
+        Me.StudentGridLSTBOX.Size = New System.Drawing.Size(847, 544)
         Me.StudentGridLSTBOX.TabIndex = 0
         '
         'Gradelbl
@@ -61,10 +61,10 @@ Partial Class Admin
         Me.Gradelbl.BackColor = System.Drawing.Color.Crimson
         Me.Gradelbl.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Gradelbl.ForeColor = System.Drawing.Color.White
-        Me.Gradelbl.Location = New System.Drawing.Point(29, 22)
-        Me.Gradelbl.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Gradelbl.Location = New System.Drawing.Point(77, 52)
+        Me.Gradelbl.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Gradelbl.Name = "Gradelbl"
-        Me.Gradelbl.Size = New System.Drawing.Size(211, 34)
+        Me.Gradelbl.Size = New System.Drawing.Size(563, 81)
         Me.Gradelbl.TabIndex = 1
         Me.Gradelbl.Text = "Grade Table"
         Me.Gradelbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -74,10 +74,10 @@ Partial Class Admin
         Me.StudentIDlbl.BackColor = System.Drawing.Color.Crimson
         Me.StudentIDlbl.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.StudentIDlbl.ForeColor = System.Drawing.Color.White
-        Me.StudentIDlbl.Location = New System.Drawing.Point(374, 22)
-        Me.StudentIDlbl.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.StudentIDlbl.Location = New System.Drawing.Point(997, 52)
+        Me.StudentIDlbl.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.StudentIDlbl.Name = "StudentIDlbl"
-        Me.StudentIDlbl.Size = New System.Drawing.Size(159, 34)
+        Me.StudentIDlbl.Size = New System.Drawing.Size(424, 81)
         Me.StudentIDlbl.TabIndex = 2
         Me.StudentIDlbl.Text = "Student ID"
         Me.StudentIDlbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -87,10 +87,10 @@ Partial Class Admin
         Me.Semesterlbl.BackColor = System.Drawing.Color.Crimson
         Me.Semesterlbl.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Semesterlbl.ForeColor = System.Drawing.Color.White
-        Me.Semesterlbl.Location = New System.Drawing.Point(374, 185)
-        Me.Semesterlbl.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Semesterlbl.Location = New System.Drawing.Point(997, 441)
+        Me.Semesterlbl.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Semesterlbl.Name = "Semesterlbl"
-        Me.Semesterlbl.Size = New System.Drawing.Size(159, 34)
+        Me.Semesterlbl.Size = New System.Drawing.Size(424, 81)
         Me.Semesterlbl.TabIndex = 3
         Me.Semesterlbl.Text = "Semester"
         Me.Semesterlbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -100,10 +100,10 @@ Partial Class Admin
         Me.CRNlbl.BackColor = System.Drawing.Color.Crimson
         Me.CRNlbl.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CRNlbl.ForeColor = System.Drawing.Color.White
-        Me.CRNlbl.Location = New System.Drawing.Point(374, 103)
-        Me.CRNlbl.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.CRNlbl.Location = New System.Drawing.Point(997, 246)
+        Me.CRNlbl.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.CRNlbl.Name = "CRNlbl"
-        Me.CRNlbl.Size = New System.Drawing.Size(159, 34)
+        Me.CRNlbl.Size = New System.Drawing.Size(424, 81)
         Me.CRNlbl.TabIndex = 4
         Me.CRNlbl.Text = "CRN"
         Me.CRNlbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -111,19 +111,19 @@ Partial Class Admin
         'StudentIDtxt
         '
         Me.StudentIDtxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.StudentIDtxt.Location = New System.Drawing.Point(373, 58)
-        Me.StudentIDtxt.Margin = New System.Windows.Forms.Padding(2)
+        Me.StudentIDtxt.Location = New System.Drawing.Point(995, 138)
+        Me.StudentIDtxt.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.StudentIDtxt.Name = "StudentIDtxt"
-        Me.StudentIDtxt.Size = New System.Drawing.Size(126, 29)
+        Me.StudentIDtxt.Size = New System.Drawing.Size(329, 61)
         Me.StudentIDtxt.TabIndex = 5
         '
         'gradeUpdatebtn
         '
         Me.gradeUpdatebtn.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.gradeUpdatebtn.Location = New System.Drawing.Point(373, 263)
-        Me.gradeUpdatebtn.Margin = New System.Windows.Forms.Padding(2)
+        Me.gradeUpdatebtn.Location = New System.Drawing.Point(995, 627)
+        Me.gradeUpdatebtn.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.gradeUpdatebtn.Name = "gradeUpdatebtn"
-        Me.gradeUpdatebtn.Size = New System.Drawing.Size(161, 33)
+        Me.gradeUpdatebtn.Size = New System.Drawing.Size(429, 79)
         Me.gradeUpdatebtn.TabIndex = 8
         Me.gradeUpdatebtn.Text = "Update"
         Me.gradeUpdatebtn.UseVisualStyleBackColor = True
@@ -131,10 +131,10 @@ Partial Class Admin
         'Resetbtn
         '
         Me.Resetbtn.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Resetbtn.Location = New System.Drawing.Point(49, 321)
-        Me.Resetbtn.Margin = New System.Windows.Forms.Padding(2)
+        Me.Resetbtn.Location = New System.Drawing.Point(131, 765)
+        Me.Resetbtn.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.Resetbtn.Name = "Resetbtn"
-        Me.Resetbtn.Size = New System.Drawing.Size(128, 29)
+        Me.Resetbtn.Size = New System.Drawing.Size(341, 69)
         Me.Resetbtn.TabIndex = 9
         Me.Resetbtn.Text = "Reset"
         Me.Resetbtn.UseVisualStyleBackColor = True
@@ -143,10 +143,10 @@ Partial Class Admin
         '
         Me.Closebtn.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.Closebtn.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Closebtn.Location = New System.Drawing.Point(198, 321)
-        Me.Closebtn.Margin = New System.Windows.Forms.Padding(2)
+        Me.Closebtn.Location = New System.Drawing.Point(528, 765)
+        Me.Closebtn.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.Closebtn.Name = "Closebtn"
-        Me.Closebtn.Size = New System.Drawing.Size(122, 29)
+        Me.Closebtn.Size = New System.Drawing.Size(325, 69)
         Me.Closebtn.TabIndex = 10
         Me.Closebtn.Text = "Close"
         Me.Closebtn.UseVisualStyleBackColor = True
@@ -156,19 +156,21 @@ Partial Class Admin
         Me.SearchIconBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.SearchIconBtn.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SearchIconBtn.Image = CType(resources.GetObject("SearchIconBtn.Image"), System.Drawing.Image)
-        Me.SearchIconBtn.Location = New System.Drawing.Point(504, 57)
-        Me.SearchIconBtn.Margin = New System.Windows.Forms.Padding(2)
+        Me.SearchIconBtn.Location = New System.Drawing.Point(1344, 136)
+        Me.SearchIconBtn.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.SearchIconBtn.Name = "SearchIconBtn"
-        Me.SearchIconBtn.Size = New System.Drawing.Size(30, 30)
+        Me.SearchIconBtn.Size = New System.Drawing.Size(80, 72)
         Me.SearchIconBtn.TabIndex = 11
         Me.SearchIconBtn.UseVisualStyleBackColor = True
         '
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.SemesterComboBox)
-        Me.GroupBox1.Location = New System.Drawing.Point(364, 92)
+        Me.GroupBox1.Location = New System.Drawing.Point(971, 219)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(180, 216)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.GroupBox1.Size = New System.Drawing.Size(480, 515)
         Me.GroupBox1.TabIndex = 12
         Me.GroupBox1.TabStop = False
         '
@@ -176,25 +178,28 @@ Partial Class Admin
         '
         Me.SemesterComboBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SemesterComboBox.FormattingEnabled = True
-        Me.SemesterComboBox.Location = New System.Drawing.Point(10, 131)
+        Me.SemesterComboBox.Location = New System.Drawing.Point(27, 312)
+        Me.SemesterComboBox.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.SemesterComboBox.Name = "SemesterComboBox"
-        Me.SemesterComboBox.Size = New System.Drawing.Size(160, 32)
+        Me.SemesterComboBox.Size = New System.Drawing.Size(420, 62)
         Me.SemesterComboBox.TabIndex = 15
         Me.SemesterComboBox.Text = "Choose One"
         '
         'StatusStrip1
         '
+        Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(40, 40)
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 367)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 882)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(573, 22)
+        Me.StatusStrip1.Padding = New System.Windows.Forms.Padding(3, 0, 37, 0)
+        Me.StatusStrip1.Size = New System.Drawing.Size(1528, 46)
         Me.StatusStrip1.TabIndex = 13
         Me.StatusStrip1.Text = "StatusStrip1"
         '
         'ToolStripStatusLabel1
         '
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(57, 17)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(140, 41)
         Me.ToolStripStatusLabel1.Text = "Waiting..."
         '
         'CRNComboBox
@@ -202,9 +207,10 @@ Partial Class Admin
         Me.CRNComboBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CRNComboBox.FormattingEnabled = True
         Me.CRNComboBox.Items.AddRange(New Object() {"CRN 1", "CRN 2", "CRN 3", "CRN 4", "CRN 5"})
-        Me.CRNComboBox.Location = New System.Drawing.Point(373, 144)
+        Me.CRNComboBox.Location = New System.Drawing.Point(995, 343)
+        Me.CRNComboBox.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.CRNComboBox.Name = "CRNComboBox"
-        Me.CRNComboBox.Size = New System.Drawing.Size(160, 32)
+        Me.CRNComboBox.Size = New System.Drawing.Size(420, 62)
         Me.CRNComboBox.TabIndex = 14
         Me.CRNComboBox.Text = "Choose One"
         '
@@ -212,10 +218,10 @@ Partial Class Admin
         '
         Me.AddBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.AddBtn.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AddBtn.Location = New System.Drawing.Point(376, 321)
-        Me.AddBtn.Margin = New System.Windows.Forms.Padding(2)
+        Me.AddBtn.Location = New System.Drawing.Point(1003, 765)
+        Me.AddBtn.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.AddBtn.Name = "AddBtn"
-        Me.AddBtn.Size = New System.Drawing.Size(155, 29)
+        Me.AddBtn.Size = New System.Drawing.Size(413, 69)
         Me.AddBtn.TabIndex = 15
         Me.AddBtn.Text = "Add Student"
         Me.AddBtn.UseVisualStyleBackColor = True
@@ -225,10 +231,10 @@ Partial Class Admin
         Me.Label1.BackColor = System.Drawing.Color.Crimson
         Me.Label1.Font = New System.Drawing.Font("Palatino Linotype", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(244, 22)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(651, 52)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(52, 34)
+        Me.Label1.Size = New System.Drawing.Size(139, 81)
         Me.Label1.TabIndex = 16
         Me.Label1.Text = "GPA:"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -239,19 +245,20 @@ Partial Class Admin
         Me.GPAlbl.BackColor = System.Drawing.Color.LightGray
         Me.GPAlbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.GPAlbl.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GPAlbl.Location = New System.Drawing.Point(301, 26)
+        Me.GPAlbl.Location = New System.Drawing.Point(803, 62)
+        Me.GPAlbl.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
         Me.GPAlbl.Name = "GPAlbl"
-        Me.GPAlbl.Size = New System.Drawing.Size(47, 26)
+        Me.GPAlbl.Size = New System.Drawing.Size(120, 57)
         Me.GPAlbl.TabIndex = 17
         Me.GPAlbl.Text = "0.00"
         '
         'Admin
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(16.0!, 31.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.CancelButton = Me.Closebtn
-        Me.ClientSize = New System.Drawing.Size(573, 389)
+        Me.ClientSize = New System.Drawing.Size(1528, 928)
         Me.Controls.Add(Me.GPAlbl)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.AddBtn)
@@ -268,7 +275,7 @@ Partial Class Admin
         Me.Controls.Add(Me.Gradelbl)
         Me.Controls.Add(Me.StudentGridLSTBOX)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.Name = "Admin"
         Me.Text = "Admin"
         Me.GroupBox1.ResumeLayout(False)

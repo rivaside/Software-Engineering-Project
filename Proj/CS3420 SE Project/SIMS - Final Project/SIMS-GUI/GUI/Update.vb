@@ -9,7 +9,7 @@ Public Class updateForm
     Public Final As String
     Public CourseGrade As String
     Public Semester As String
-
+    '
     Dim READER As MySqlDataReader
 
     Private Sub Save_Click(sender As Object, e As EventArgs) Handles Save.Click
@@ -55,7 +55,7 @@ Public Class updateForm
     End Sub
 
     Private Sub updateForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        '
         MysqlConn = New MySqlConnection
         MysqlConn.ConnectionString =
             "server = localhost; userid = root; password = wali; database = SIMS"
